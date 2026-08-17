@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    printf("Hello, World!");
+    printf("Hello, World!\n");
 
     int fahr, celcius;
     int lower, upper, step;

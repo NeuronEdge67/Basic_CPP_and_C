@@ -2,8 +2,9 @@
 
 int main(void)
 {
-    int i;
-    i = 67;
+    int i = 67;
+    float f = 3.14;
+    char *s = "Hello";
 
-    printf("%i", i)
+    printf("%s %d %f", s, i, f);
 }

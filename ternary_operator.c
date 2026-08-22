@@ -17,15 +17,16 @@ int main(void)
     printf("x is equal to %d and y is equal to %d\n", x, y);
     printf("The number %d is %s.\n", x, x % 2 == 0? "even": "odd");
 
-    // w = 0;
-    // for (w < 10) {
-    //     w += 1;
-    //     printf("%d\n", w);
-    // }
-
-
 for (w = 0; w < 10; w++) {
     printf("w is %d\n", w);
 }
 
+for (i = 0, j = 10; i < 100; i++, j++)
+    printf("%d, %d\n", i, j);
+
+w = 0;
+while (w < 10) {
+    w += 1;
+    printf("%d\n", w);
+}
 }

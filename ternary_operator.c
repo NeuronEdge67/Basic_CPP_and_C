@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int x, y, i, j, a, b;
+    int x, y, i, j, a, b, w;
 
     x = 9;
     y = 1;
@@ -16,4 +16,16 @@ int main(void)
     printf("%d, %d\n",a, b);
     printf("x is equal to %d and y is equal to %d\n", x, y);
     printf("The number %d is %s.\n", x, x % 2 == 0? "even": "odd");
+
+    // w = 0;
+    // for (w < 10) {
+    //     w += 1;
+    //     printf("%d\n", w);
+    // }
+
+
+for (w = 0; w < 10; w++) {
+    printf("w is %d\n", w);
+}
+
 }

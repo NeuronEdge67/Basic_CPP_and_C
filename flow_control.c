@@ -11,5 +11,8 @@ int main(void)
     else {
         printf("I is not 6. I is %d", i);
     }
+
+    // y += x > 10? 17: 37;
+
     return 0;
 }

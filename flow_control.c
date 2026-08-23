@@ -2,14 +2,14 @@
 
 int main(void)
 {
-    int i = 11, x;
+    int a = 11, x;
 
-    if (i == 69) {
-        printf("I is %d", i);
+    if (a == 69) {
+        printf("I is %d", a);
     }
 
     else {
-        printf("I is not 6. I is %d\n", i);
+        printf("a is not 6. a is %d\n", a);
     }
 
     x = 0;

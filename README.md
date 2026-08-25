@@ -1,4 +1,6 @@
-# Beej-s-Guide-to-C-Programming
+# URL - https://www.learncpp.com/
 
-**Here I am pushing all the code I write while reading the "Beej’s Guide to C Programming" named as "C_documentation.pdf" in this repo**
+
+
+**Here I am pushing all the code I write while reading the "Learn C++"**
 

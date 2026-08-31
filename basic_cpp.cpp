@@ -6,6 +6,8 @@ int main()
     std::cout << "H\n";
     std::cout << "Hello\n";
     std::cout << 67;
+    int  x {5};
+    std::cout << x;
 
     return 0;
 }

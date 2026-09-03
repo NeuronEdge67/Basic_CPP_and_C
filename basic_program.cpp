@@ -1,14 +1,18 @@
 #include <iostream>
 
+double get_user_input()
+{
+    std::cout << "Enter a Number: ";
+    double value;
+    std::cin >> value;
+    return value;
+}
+
 int main()
 {
-    std::cout << "Enter a Integer: ";
+    double num = get_user_input();
 
-    int value;
-    std::cin >> value;
-    int double_value = value * 2;
-
-    std::cout << "Double of " << value << " is " << double_value << "\n";
+    std::cout << "Double of " << num << " is " << num * 2;
     
     return 0;
 }
